@@ -1,0 +1,63 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* z-index means that it has priority we never wants anything aboe this header */
+}
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__optionLineOne {
+    font-size: 10px;
+}
+.header__optionlinetwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+.header__search{
+    display: flex;
+    flex:1;
+    /* flex 1 means that utilze as much space as you get */
+}
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important ; 
+    /* this important means that ignore the default rules of material icons and implement ours */
+    background-color: #cd9042;
+    
+}
